@@ -7,8 +7,9 @@ function Task1()
     name: "Laptop",
     brand: "Lenovo"
   };
+  const fruits = ["apple", "mango", "banana"];
+  let fruitsList = fruits.map((fruit, index) => <li key={index}>{fruit}</li>);
 
-  
   return (
     <>
       <h1>This is Lalitha</h1>
@@ -20,6 +21,11 @@ function Task1()
       <p>ID: {product.id}</p>
       <p>Name: {product.name}</p>
       <p>Brand: {product.brand}</p>
+
+      
+      <h3>Fruits</h3>
+      <ol>{fruitsList}</ol>
+
 
       
     </>
