@@ -3,7 +3,7 @@ function Task1()
         let EmpfullName = "Mr. Ratan Sir";
 
   const student = {
-    id: 1001,
+    id: 1023,
     stuname: "Lalitha",
     course: "Java Full Stack"
   };
@@ -12,7 +12,7 @@ function Task1()
 
   return (
     <>
-      <h1>This is Lalitha</h1>
+      
       <p>This is ReactJS class</p>
 
       <h1>Good Evening... {EmpfullName}</h1>
